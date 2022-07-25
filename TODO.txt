@@ -1,0 +1,5 @@
+Separar a análise em análise de variáveis numéricas e categóricas
+
+Fazer análise de variáveis como cidade e todas as outras variáveis que não é possivel fzr via mapa de calor (correlação) ('object')
+
+Devo retirar outliers antes de começar analisar as variáveis com outras?
