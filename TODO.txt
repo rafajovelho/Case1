@@ -1,7 +1,15 @@
 * Separar a análise em variáveis numéricas e categóricas
 
+* Verificar relação de valor_mercado / valor_anuncio com 'leads'
+
 * Fazer análise de variáveis como cidade e todas as outras variáveis que não é possivel fzr via mapa de calor (correlação) ('object') [pode ser feita via .groupby().agg()
+-UF
+-CIDADE
+-
+
 
 * Devo retirar outliers antes de começar analisar as variáveis com outras?
 
 * Posso criar outra coluna apenas com o estado das cidades
+
+* variáveis que auxiliariam: primeiro_dono, cor, manutenção
