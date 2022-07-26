@@ -3,13 +3,40 @@
 * Verificar relação de valor_mercado / valor_anuncio com 'leads'
 
 * Fazer análise de variáveis como cidade e todas as outras variáveis que não é possivel fzr via mapa de calor (correlação) ('object') [pode ser feita via .groupby().agg()
--UF
--CIDADE
--
+- UF
+- CIDADE
+- CAMBIO
+- COMBUSTIVEL 
+- OK
 
 
-* Devo retirar outliers antes de começar analisar as variáveis com outras?
+* Devo retirar outliers antes de começar analisar as variáveis com outras? - OK
 
-* Posso criar outra coluna apenas com o estado das cidades
+* Posso criar outra coluna apenas com o estado das cidades - OK
 
 * variáveis que auxiliariam: primeiro_dono, cor, manutenção
+-> outras coisas que auxiliariam, seria a ordem em que os cliente aplicam os filtros no site, conseguiriamos identificar uma combinação de filtros e nos direcionar para buscar influencia nos numeros maiores de leads
+
+
+* Devo retirar os outliers da variável target?
+
+* Fazer a correlação das variáveis binarias com stats.pointbiserialr
+
+
+#TODO 26/07 - manhã
+
+1- Organizar os countplot próximos aos barplot com o target
+
+2- Tentar fazer o barplot dos tipos de veiculos com a target
+
+3- Fazer a correlação das variáveis binárias com a target(continua)
+
+4- Tentar plotar o describe (?)
+
+
+
+
+
+
+
+
