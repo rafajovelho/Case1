@@ -1,8 +1,8 @@
-* Separar a análise em variáveis numéricas e categóricas
+* Separar a análise em variáveis numéricas e categóricas - OK 
 
-* Verificar relação de valor_mercado / valor_anuncio com 'leads'
+* Verificar relação de valor_mercado / valor_anuncio com 'leads' - OK 
 
-* Fazer análise de variáveis como cidade e todas as outras variáveis que não é possivel fzr via mapa de calor (correlação) ('object') [pode ser feita via .groupby().agg()
+* Fazer análise de variáveis como cidade e todas as outras variáveis que não é possivel fzr via mapa de calor (correlação) ('object') [pode ser feita via .groupby().agg() -OK
 - UF
 - CIDADE
 - CAMBIO
@@ -10,32 +10,31 @@
 - OK
 
 
-* Devo retirar outliers antes de começar analisar as variáveis com outras? - OK
+* Devo retirar outliers antes de começar analisar as variáveis com outras? - ???
 
 * Posso criar outra coluna apenas com o estado das cidades - OK
 
-* variáveis que auxiliariam: primeiro_dono, cor, manutenção
+* variáveis que auxiliariam: carro ja foi batido, cor, manutenção, o que os codigos de versao, marca e modelo representam.
 -> outras coisas que auxiliariam, seria a ordem em que os cliente aplicam os filtros no site, conseguiriamos identificar uma combinação de filtros e nos direcionar para buscar influencia nos numeros maiores de leads
 
 
-* Devo retirar os outliers da variável target?
-
-* Fazer a correlação das variáveis binarias com stats.pointbiserialr
+* Devo retirar os outliers da variável target? - ???
 
 
 #TODO 26/07 - manhã
 
-1- Organizar os countplot próximos aos barplot com o target
+1- Organizar os countplot próximos aos barplot com o target - OK
 
-2- Tentar fazer o barplot dos tipos de veiculos com a target
+2- Tentar fazer o barplot dos tipos de veiculos com a target - OK
 
 3- Fazer a correlação das variáveis binárias com a target(continua)
 
-4- Tentar plotar o describe (?)
+4- Tentar plotar o describe- OK
 
 
 
-
+Filtrar por coisas que considero essencial, e ver se o numero de leads aumenta.
+Ex: alarma, airbag, arcond, vidroeletr -> quando tem todas essas opções, qual a média de leads
 
 
 
